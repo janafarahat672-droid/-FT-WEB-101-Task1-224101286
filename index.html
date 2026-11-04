@@ -1,0 +1,220 @@
+<!--
+  Name: Jana Farahat
+  Student ID: 224101286
+  FT-WEB-101 - Task 1 - Profile page
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jana Farahat | UI/UX Designer &amp; Front-End Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="bar">
+            <a href="#home" class="brand">Jana Farahat</a>
+            <div class="bar-right">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-btn" type="button">🌙 Dark</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <h1>I’m Jana Farahat</h1>
+                <p class="role">UI/UX Designer &amp; Front-End Developer</p>
+                <p class="tagline">
+                    Crafting intuitive digital experiences and turning creative ideas
+                    into clean, responsive, and functional interfaces.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="pill pill-light">View My Work</a>
+                    <a href="#contact" class="pill pill-orange">Get In Touch</a>
+                </div>
+            </div>
+
+            <div class="hero-photo">
+                <img src="images/me.png" alt="Jana Farahat standing in front of a pink and cream spiral">
+            </div>
+        </section>
+
+        <!-- ABOUT + THREE CARDS -->
+        <section class="about" id="about">
+            <div class="about-text">
+                <h2>Engineer by training, designer at heart.</h2>
+                <p>
+                    I’m a Computer Science &amp; Engineering student specialising in
+                    Artificial Intelligence at New Mansoura University, with a strong
+                    interest in UI/UX Design and Front-End Development.
+                </p>
+                <p>
+                    I enjoy turning ideas into intuitive, visually engaging digital
+                    experiences — from understanding user needs and designing interfaces
+                    to bringing those designs to life with clean, responsive code. My
+                    technical background in AI and software engineering allows me to
+                    approach design with both creativity and a problem-solving mindset.
+                </p>
+                <p>
+                    Beyond the classroom, I’m an active member of the Microsoft Student
+                    Club’s AI Department and a Logistics Operations Member for Youth
+                    Leading Youth (YLY) under the Ministry of Youth and Sports, Egypt.
+                    These experiences have strengthened my teamwork, communication,
+                    organization, and ability to work effectively in collaborative
+                    environments.
+                </p>
+            </div>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C#</li>
+                        <li>C++</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Design &amp; Tools</h3>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Canva</li>
+                        <li>VS Code</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Interests</h3>
+                    <ul>
+                        <li>UI/UX Design</li>
+                        <li>Web Development</li>
+                        <li>Front-End Development</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- WHAT I CAN DO -->
+        <section class="skills">
+            <h2>What I can do?</h2>
+            <ul class="skills-list">
+                <li>UX Research</li>
+                <li>User testing</li>
+                <li>Design system</li>
+                <li>Wireframing</li>
+                <li>Interface design</li>
+                <li>Prototyping</li>
+            </ul>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="projects" id="projects">
+            <h2>My work</h2>
+            <p class="section-sub">
+                A few projects that show how I design and build for the web.
+            </p>
+
+            <div class="project-row">
+                <article class="project-card">
+                    <div class="project-thumb thumb-fuego" role="img" aria-label="Fuego Street website home page"></div>
+                    <h3>Fuego Street</h3>
+                    <p>A bold, vibrant restaurant website with full ordering flow - cart, checkout, and confirmation.
+                    </p>
+                    <ul class="tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-thumb thumb-company" role="img"
+                        aria-label="CompanyCo dark mode admin dashboard"></div>
+                    <h3>CompanyCo Management</h3>
+                    <p>A dark-mode admin dashboard for managing employees, departments, projects, and finance.</p>
+                    <ul class="tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-thumb thumb-lost" role="img" aria-label="Lost and Found system home page"></div>
+                    <h3>Lost &amp; Found system</h3>
+                    <p>A university campus platform for reporting, searching, and recovering lost items replacing
+                        scattered social media posts with trusted central hub.</p>
+                    <ul class="tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <h2>Let’s connect</h2>
+            <p class="section-sub">
+                Whether it’s a project, collaboration, or just a hello — my inbox is always open.
+            </p>
+
+            <div class="contact-grid">
+                <form class="contact-form" action="#" method="get">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                    <input type="submit" value="Send">
+                </form>
+
+                <div class="contact-info">
+                    <p>
+                        I’m currently open to internship opportunities, freelance projects,
+                        and collaborative opportunities in UI/UX Design and Front-End
+                        Development. I’m always interested in working on meaningful digital
+                        products and creating intuitive, engaging user experiences.
+                    </p>
+                    <p class="location">Based in Egypt · Available remotely</p>
+                    <p class="mail">Janafarahat672@gmail.com</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+            <h2>Let’s work together!</h2>
+            <p>Have a project in mind? I’d love to hear about it and see how we can build something great.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Jana Farahat. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
